@@ -1,13 +1,19 @@
 {
   "name": "vue-fontawesome-tree-shaking-demo",
   "version": "0.1.0",
+  "description": "simple little demonstration of a Vue.js app that uses Font Awesome 5.1 with tree-shaking that Just Works (tm)",
+  "author": "Mike Wilkerson <mwilkerson@gmail.com>",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.0-10",
+    "@fortawesome/free-solid-svg-icons": "5.1.0-7",
+    "@fortawesome/vue-fontawesome": "0.1.0-4",
     "vue": "^2.5.13"
   },
   "devDependencies": {
